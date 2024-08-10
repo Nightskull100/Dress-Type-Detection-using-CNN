@@ -1,5 +1,7 @@
 
-# Fashion MNIST Classifier
+---
+
+# FashionNet: Smart Clothing Classifier with PyTorch
 
 This repository contains a PyTorch implementation of a neural network designed to classify images from the Fashion MNIST dataset. The dataset consists of grayscale images of various clothing items, with each image being 28x28 pixels.
 
@@ -15,7 +17,10 @@ The project includes the following key components:
 
 - **Visualization**: The training and validation losses are plotted to observe the model's performance over time. Additionally, the model's predictions on sample images are visualized alongside the predicted class probabilities.
 
-- **Image Prediction**: Two utility functions are provided to preprocess images from either a URL or a local file, allowing for prediction using the trained model. The predictions are then visualized along with the input image.
+- **Image Prediction**: Three options are provided to predict images:
+  1. **Random Image from Dataset**: Use a random image from the Fashion MNIST dataset to predict the class.
+  2. **Image from URL**: Preprocess and predict the class of an image from a given URL.
+  3. **Image from Local File**: Upload a local file to predict the class using the trained model. The predictions are then visualized along with the input image.
 
 ## Dependencies
 
@@ -42,14 +47,21 @@ To train the model, simply run the main script. The model will train for 25 epoc
 python train.py
 ```
 
-### 2. Predicting from a URL
+### 2. Predicting from a Random Dataset Image
+To predict the class of a random image from the Fashion MNIST dataset, use the following command:
+
+```bash
+python predict_random.py
+```
+
+### 3. Predicting from a URL
 To predict the class of an image from a URL, use the following command:
 
 ```bash
 python predict_url.py --image_url "http://example.com/image.jpg"
 ```
 
-### 3. Predicting from a Local File
+### 4. Predicting from a Local File
 To predict the class of an image from a local file, use the following command:
 
 ```bash
@@ -80,12 +92,13 @@ Contributions are welcome! If you have any ideas or improvements, feel free to o
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# 💫 About Me:
-🔭 A Simple guy who does coding for fun<br>👯 Willing to collaborate in all types of Projects<br>🤝 I’m looking for help with Neural Networking<br>🌱 I’m currently learning ML and Deep Learning, FIGMA(In near future) <br>
+---
 
+# 💫 About Me:
+🔭 A Simple guy who does coding for fun<br>👯 Willing to collaborate in all types of Projects<br>🤝 I’m looking for help with Neural Networking<br>🌱 I’m currently learning ML and Deep Learning, FIGMA (In near future)<br>
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/cr7._.haseeb) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haseeb-ahsan-2b32a7293) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/cr7._.haseeb) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haseeb-ahsan-2b32a7293)
 
 # 💻 Tech Stack:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) 
@@ -100,3 +113,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![](https://visitcount.itsvg.in/api?id=Nightskull100&icon=1&color=5)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+---
+
+This update includes the information on the notebook's ability to use a random image from the dataset, a URL, or an uploaded image for predictions.
