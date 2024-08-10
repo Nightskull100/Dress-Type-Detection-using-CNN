@@ -84,7 +84,10 @@ The model achieves a validation accuracy of approximately 88% after 25 epochs of
 
 Given an image of an **Tshirt**, the model predicts the class with a high probability.
 
+<img src="https://github.com/Nightskull100/Dress-Type-Detection-using-CNN/blob/f432f729aec9750d4bbe6ddd7f1e07586a50629f/Images/Image%20from%20Online.png" alt="Description" width="500" height="500">
+
 ![Sample Prediction](https://github.com/Nightskull100/Dress-Type-Detection-using-CNN/blob/e09a0aced7fd61d2728f3875e930a70cb24d260d/Images/Result%20online.png)
+
 
 ## Contributing
 This project was done in collaboration with **Mr.Prajan Kannan**.
