@@ -64,7 +64,7 @@ The model achieves a validation accuracy of approximately 88% after 25 epochs of
 
 ### Training and Validation Losses
 
-![Training and Validation Losses](path/to/loss_plot.png)
+![Training and Validation Losses](https://github.com/Nightskull100/Dress-Type-Detection-using-CNN/blob/3f8e12947ad1c26805abd6e117f7d0d43de8c417/Training%20and%20Validation%20Losses.png)
 
 ### Sample Prediction
 
