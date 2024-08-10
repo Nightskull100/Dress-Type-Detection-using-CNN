@@ -90,7 +90,7 @@ Given an image of an **Tshirt**, the model predicts the class with a high probab
 
 
 ## Contributing
-This project was done in collaboration with **Mr.Prajan Kannan**.
+This project was done in collaboration with **Prajan Kannan**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prajan-kannan/)
 
