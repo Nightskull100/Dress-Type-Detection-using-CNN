@@ -1,7 +1,7 @@
 
 ---
 
-# FashionNet: Simple Apparel Classifier with PyTorch
+# FashionNet: Simple Apparel Classifier with Python using PyTorch
 
 This repository contains a PyTorch implementation of a neural network designed to classify images from the Fashion MNIST dataset. The dataset consists of grayscale images of various clothing items, with each image being 28x28 pixels.
 
